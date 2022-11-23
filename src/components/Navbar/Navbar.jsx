@@ -1,5 +1,5 @@
 import React from 'react';
-import CartWidget from '../CartWidget/CartWidget';
+import CartWidget from './CartWidget';
 const Navbar = () => {
   //dentro del navbar llamamos el componente cartWidget que devuelve un icono de un carrito
   return (

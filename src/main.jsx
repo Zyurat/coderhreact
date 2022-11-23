@@ -1,13 +1,12 @@
 import React from 'react';
-import './style.css';
-import Navbar from './components/Navbar/Navbar';
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import './index.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-const rootElement = document.getElementById('root');
-const root = createRoot(rootElement);
-
-root.render(
-  <StrictMode>
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
     <App />
-  </StrictMode>
+  </React.StrictMode>
 );

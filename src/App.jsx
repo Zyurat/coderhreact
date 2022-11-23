@@ -1,15 +1,15 @@
-import React from 'react';
-import './style.css';
-import Navbar from './components/Navbar/Navbar';
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import reactLogo from './assets/react.svg';
+import './App.css';
+import Navbar from './components/Navbar';
+import ItemListContainer from './components/ItemListContainer';
 
-export default function App() {
-  //llamamos los componentes en App para poder visualizarlo
-  //app le pasa una prop greeting a ItemListContainer
+function App() {
   return (
     <div>
       <Navbar />
-      <ItemListContainer greeting="Bienvenidos!" />
+      <ItemListContainer greeting="Hola soy una app con vite" />
     </div>
   );
 }
+
+export default App;
