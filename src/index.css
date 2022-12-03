@@ -17,6 +17,7 @@
 
 .ItemListContainer{
   display: flex;
+  flex-wrap: wrap;
 }
 
 a {

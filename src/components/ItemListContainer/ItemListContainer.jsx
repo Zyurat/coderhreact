@@ -20,9 +20,6 @@ const ItemListContainer = ({ greeting }) => {
   }
   return (
       <section className="ItemListContainer">
-        <p className="alert alert-danger">{count}</p>
-        <p className='btn btn-outline-primary' onClick={handleContador}>Clickeame!</p>
-        <h2>{greeting}</h2>
         {   loading ? 
                   <h1>Cargando...</h1> 
               :
@@ -47,7 +44,7 @@ const ItemListContainer = ({ greeting }) => {
                                               
                                                       <div className="card-footer">                                                        
                                                           <button className="btn btn-outline-primary btn-block">
-                                                          <span>Detalles</span>
+                                                            <span>Detalles</span>
                                                           </button>
                                                       </div>
                                                   </div>

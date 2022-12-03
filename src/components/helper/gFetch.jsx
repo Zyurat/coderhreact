@@ -15,6 +15,39 @@ let arrayItems = [
     price: "200",
     picture: "https://cdn.brujulabike.com/media/21927/conversions/19399580-403-19399580-403-1600.jpg",
   },
+  {
+    id: "3",
+    name: "producto 3 (Boris Johnson no incluído)",
+    category: "cascos",
+    stock: "100",
+    price: "200",
+    picture: "https://cdn.brujulabike.com/media/21927/conversions/19399580-403-19399580-403-1600.jpg",
+  },
+  {
+    id: "4",
+    name: "producto 2 (Boris Johnson no incluído)",
+    category: "cascos",
+    stock: "100",
+    price: "200",
+    picture: "https://cdn.brujulabike.com/media/21927/conversions/19399580-403-19399580-403-1600.jpg",
+  },
+  {
+    id: "5",
+    name: "producto 2 (Boris Johnson no incluído)",
+    category: "cascos",
+    stock: "100",
+    price: "200",
+    picture: "https://cdn.brujulabike.com/media/21927/conversions/19399580-403-19399580-403-1600.jpg",
+  },
+  {
+    id: "6",
+    name: "producto 2 (Boris Johnson no incluído)",
+    category: "cascos",
+    stock: "100",
+    price: "200",
+    picture: "https://cdn.brujulabike.com/media/21927/conversions/19399580-403-19399580-403-1600.jpg",
+  },
+
 ];
 export const gFetch = () => {
   return new Promise ( (resolve, reject)=>{
