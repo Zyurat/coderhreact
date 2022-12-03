@@ -1,3 +1,4 @@
+import "./CartWidget.module.css"
 import React from 'react';
 
 const CartWidget = () => {

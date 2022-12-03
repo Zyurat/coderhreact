@@ -1,11 +1,11 @@
 import React from 'react';
 import CartWidget from './CartWidget';
-const Navbar = () => {
+function Navbar({titulo='titulo por defecto', menu1='menu por defecto', menu2='menu2 por defecto', menu3='menu3 por defecto'}) {
   //dentro del navbar llamamos el componente cartWidget que devuelve un icono de un carrito
   return (
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
-        Coder!
+      {titulo}
         <button
           className="navbar-toggler"
           type="button"
@@ -22,19 +22,19 @@ const Navbar = () => {
             <li className="nav-item">
               {' '}
               <a className="nav-link active" aria-current="page" href="#">
-                Nuevos
+                {menu1}
               </a>
             </li>
             <li className="nav-item">
               {' '}
               <a className="nav-link active" aria-current="page" href="#">
-                Ofertas
+                {menu2}
               </a>
             </li>
             <li className="nav-item">
               {' '}
               <a className="nav-link active" aria-current="page" href="#">
-                Mas Vendidos
+                {menu3}
               </a>
             </li>
           </ul>

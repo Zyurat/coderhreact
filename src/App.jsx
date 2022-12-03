@@ -1,13 +1,17 @@
-import reactLogo from './assets/react.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import ItemListContainer from './components/ItemListContainer';
 
+
 function App() {
   return (
     <div>
-      <Navbar />
-      <ItemListContainer greeting="Hola soy una app con vite" />
+      <Navbar 
+      titulo={'CoderHouse!'} 
+      menu1={'Menú 1'} 
+      menu2={'Menú 2'} 
+      menu3={'Menú 3'}/>
+      <ItemListContainer greeting="Hola vite" />
     </div>
   );
 }
