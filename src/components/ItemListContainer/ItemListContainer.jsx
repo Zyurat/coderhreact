@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import { gFetch } from "../helper/gFetch";
-
+import { Link } from 'react-router-dom'
+import ItemDetailContainer from "../ItemDetailContainer/ItemDetailContainer";
 //* .then 
 
 const ItemListContainer = ({ greeting }) => {
@@ -42,10 +43,12 @@ const ItemListContainer = ({ greeting }) => {
                                                           <span>Stock:  {product.stock}</span>                                                         
                                                       </div>
                                               
-                                                      <div className="card-footer">                                                        
+                                                      <div className="card-footer">   
+                                                        <Link to={`/detail/${product.id}`}>
                                                           <button className="btn btn-outline-primary btn-block">
                                                             <span>Detalles</span>
                                                           </button>
+                                                        </Link>                                                    
                                                       </div>
                                                   </div>
                                                   
