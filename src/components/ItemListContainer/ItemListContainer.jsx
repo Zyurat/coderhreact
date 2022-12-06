@@ -14,11 +14,6 @@ const ItemListContainer = ({ greeting }) => {
     .catch(rechazado => console.log(rechazado))
     .finally(()=> setLoading(false))
   }, [])
-
-  const [count, cambiarValorCount] = useState (0)
-  const handleContador = () => {
-    cambiarValorCount(count+1)
-  }
   return (
       <section className="ItemListContainer">
         {   loading ? 
