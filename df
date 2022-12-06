@@ -1,0 +1,66 @@
+[33mcommit 86f0c3a606e2aca44719315bf769abd4622ef0ff[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: 50e5920 af7ac9b
+Author: Patricio Puccinelli <puccinellipatricio@gmail.com>
+Date:   Tue Dec 6 17:13:25 2022 -0300
+
+    Merge branch 'main' of https://github.com/Zyurat/coderhreact
+
+[33mcommit 50e5920f837ea4facc252f26f262e57f31557a65[m
+Author: Patricio Puccinelli <puccinellipatricio@gmail.com>
+Date:   Tue Dec 6 17:13:23 2022 -0300
+
+    Actualizado
+
+[33mcommit af7ac9bca95106bb9c60d9d56c885f1f59e22757[m
+Author: Zyurat <110643661+Zyurat@users.noreply.github.com>
+Date:   Mon Dec 5 21:42:41 2022 -0300
+
+    Delete node_modules directory
+
+[33mcommit eedc06722cc1e003ba7e2c5f0001d9e736591395[m
+Author: Patricio Puccinelli <puccinellipatricio@gmail.com>
+Date:   Mon Dec 5 21:02:20 2022 -0300
+
+    Agregado clase 7-8
+
+[33mcommit 9d7c2242fad1ff46bb67bed5d7ba8042c6de3975[m
+Author: Patricio Puccinelli <puccinellipatricio@gmail.com>
+Date:   Sat Dec 3 11:02:08 2022 -0300
+
+    seteado itemdetail, test container
+
+[33mcommit d9bb8239c6eff0a0e928cfe96f1e9670f9a4cf11[m
+Author: Patricio Puccinelli <puccinellipatricio@gmail.com>
+Date:   Sat Dec 3 09:09:02 2022 -0300
+
+    Reinicializado
+
+[33mcommit 19bff89f2eefe4f4de8e507614873c141ad0645f[m
+Author: Patricio Puccinelli <puccinellipatricio@gmail.com>
+Date:   Sat Dec 3 07:54:02 2022 -0300
+
+    Organizado archivos dentro de carpetas. ItemDetail
+
+[33mcommit d9e37bc68cba5a4f944dfe5afe9714ee330baf10[m
+Author: Patricio Puccinelli <puccinellipatricio@gmail.com>
+Date:   Wed Nov 23 19:53:29 2022 -0300
+
+    Fix, ahora funciona
+
+[33mcommit d7d26ba91b951c345e2c82fffd40627137e51d86[m
+Author: Patricio Puccinelli <puccinellipatricio@gmail.com>
+Date:   Wed Nov 23 19:53:24 2022 -0300
+
+    Fix, ahora funciona
+
+[33mcommit 253bc65615bb6db7166db34b428d2e8b0c68c928[m
+Author: Patricio Puccinelli <puccinellipatricio@gmail.com>
+Date:   Wed Nov 23 19:44:22 2022 -0300
+
+    Segundo commit, test
+
+[33mcommit a22f0698ae0694d561e8157724050f9712b5a790[m
+Author: Patricio Puccinelli <puccinellipatricio@gmail.com>
+Date:   Wed Nov 23 19:35:32 2022 -0300
+
+    first commit
