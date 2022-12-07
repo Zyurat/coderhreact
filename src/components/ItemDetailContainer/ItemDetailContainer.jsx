@@ -3,7 +3,6 @@ import { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { gFetch } from '../helper/gFetch'
 import ItemCount from '../ItemCount/ItemCount'
-import ItemListContainer from '../ItemListContainer/ItemListContainer'
 
 
 const ItemDetailContainer = () =>{

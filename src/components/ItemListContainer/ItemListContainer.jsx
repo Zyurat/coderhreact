@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useEffect } from "react";
 import { gFetch } from "../helper/gFetch";
 import { Link } from 'react-router-dom'
-import ItemDetailContainer from "../ItemDetailContainer/ItemDetailContainer";
+
 //* .then 
 
 const ItemListContainer = ({ greeting }) => {
